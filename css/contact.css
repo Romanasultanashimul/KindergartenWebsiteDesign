@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700&display=swap");
+h1 {
+  color: #000;
+
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+}
+p {
+  color: #000;
+  text-align: center;
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  max-width: 663px;
+  margin: 5px auto;
+}
+#contact {
+  justify-content: center;
+  margin-top: 40px;
+  width: 100%;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+#contact #map {
+  overflow: hidden;
+  position: relative;
+  max-width: 400px;
+  height: 500px;
+}
+#contact #map img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#contact #contact-form {
+  max-width: 400px;
+  height: 500px;
+  padding: 20px;
+  justify-content: center;
+  align-items: start;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #201f1f;
+}
+#contact #contact-form h2 {
+  color: #fff;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.96px;
+}
+#contact #contact-form .field {
+  width: 100%;
+  justify-content: center;
+  align-items: start;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  gap: 5px;
+}
+#contact #contact-form .field label {
+  color: #ccc6c6;
+  font-family: Lexend Deca;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.36px;
+}
+#contact #contact-form .field input {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 10px;
+  color: white;
+  border-radius: 7px;
+  border: 0.368px solid #8d8d8d;
+  background: #343333;
+}
+#contact #contact-form button {
+  color: #201f1f;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  border-radius: 7px;
+  background: #f3f25b;
+  padding: 9px 25px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#contact #contact-form button:hover {
+  background: #fcfc38;
+}
+
+@media only screen and (max-width: 1024px) {
+  h1 {
+    font-size: 70px;
+  }
+  p {
+    font-weight: 500;
+    padding: 0 10px;
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 35px;
+  }
+  p {
+    font-size: 16px;
+  }
+  #contact {
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+}

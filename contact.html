@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="./css/base.css" />
+    <link rel="stylesheet" href="./css/contact.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-top"></div>
+      <nav class="flex">
+        <ul class="flex">
+          <li><a href="#">Home</a></li>
+          <li><a href="/index.html" class="active">About Us</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- main -->
+    <main>
+      <h1>Contact Us</h1>
+      <p>
+        Get in touch! Have a question or feedback? Use our contact form or drop
+        us an email. We're here to help!
+      </p>
+
+      <section id="contact" class="flex">
+        <form id="contact-form" class="flex">
+          <h2>Get in touch with us</h2>
+
+          <div class="field flex">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Rachel Joe" />
+          </div>
+
+          <div class="field flex">
+            <label for="email">Email</label>
+            <input
+              type="text"
+              name="email"
+              id="email"
+              placeholder="Rachel@domain.com"
+            />
+          </div>
+
+          <div class="field flex">
+            <label for="message">Message</label>
+            <input
+              type="text"
+              name="message"
+              id="message"
+              placeholder="Type your query here....."
+            />
+          </div>
+
+          <button>Send my message</button>
+        </form>
+
+        <div id="map">
+          <img src="./imgs/map.png" alt="map" />
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
